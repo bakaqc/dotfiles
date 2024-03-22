@@ -71,7 +71,6 @@ function InstallSoftware {
     choco install winrar -y
     choco install revo-uninstaller -y
     choco install discord -y
-    choco install obsidian -y
     choco install zalopc -y
     choco install choco-cleaner -y
     choco install crystaldiskinfo -y
