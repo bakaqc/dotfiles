@@ -65,7 +65,6 @@ function InstallSoftware {
 
     Write-Start -msg $msg
 
-    choco install googlechrome - y
     choco install drivereasyfree -y
     choco install obs-studio -y
     choco install winrar -y
@@ -74,6 +73,7 @@ function InstallSoftware {
     choco install zalopc -y
     choco install choco-cleaner -y
     choco install crystaldiskinfo -y
+    choco install cpu-z -y
 
     Write-Done -msg $msg
 }
@@ -86,8 +86,6 @@ function InstallDevTools {
     choco install git -y
     choco install gitkraken -y
     choco install vscode -y
-    choco install intellijidea-community -y
-    choco install temurin21 -y
     choco install nvm -y
     choco install powertoys -y
     choco install microsoft-windows-terminal -y
