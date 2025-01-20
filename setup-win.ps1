@@ -65,15 +65,16 @@ function InstallSoftware {
 
     Write-Start -msg $msg
 
-    choco install drivereasyfree -y
     choco install obs-studio -y
     choco install winrar -y
     choco install revo-uninstaller -y
-    choco install discord -y
     choco install zalopc -y
     choco install choco-cleaner -y
     choco install crystaldiskinfo -y
-    choco install cpu-z -y
+    choco install unikey
+    choco install tabby
+    choco install anydesk
+    choco install microsoft-office-deployment -y
 
     Write-Done -msg $msg
 }
